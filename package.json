@@ -1,17 +1,18 @@
 {
   "name": "realtime-tracking-system",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Real-time location tracking system using Socket.IO and Leaflet",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^5.1.0",
-    "exxpress": "^1.0.0",
     "socket.io": "^4.8.1"
   }
 }
